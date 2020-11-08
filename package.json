@@ -1,0 +1,23 @@
+{
+  "name": "webpack-hell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aneurysmjs/webpack-hell.git",
+  "author": "jero <aneurysmjs@outlook.com>",
+  "license": "MIT",
+  "bin": "./bin/webpack-hell.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "node ./bin/webpack-hell.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "prettier": "2.1.2",
+    "webpack": "5.3.2",
+    "webpack-cli": "4.1.0",
+    "yargs": "16.1.0"
+  },
+  "dependencies": {
+    "ramda": "0.27.1"
+  }
+}
